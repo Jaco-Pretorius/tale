@@ -26,6 +26,16 @@ export JEKYLL_ENV=$ENVIRONMENT_NAME
 bundle exec jekyll build
 echo
 
+echo "Moving all html files into directories"
+export SITE_DIR="_site"
+for filename in $(find $SITE_DIR -regex "$SITE_DIR.*[0-9].*\.html"); do
+  dir=${filename%.*}
+
+  mkdir -pv $dir
+  mv -v $filename $dir/index.html
+done
+echo
+
 echo "Deploying to bucket: $AWS_S3_BUCKET"
 bundle exec s3_website push
 
