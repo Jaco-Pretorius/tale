@@ -7,6 +7,6 @@ cloudfront_wildcard_invalidation: true
 cloudfront_distribution_id: <%= ENV["CLOUDFRONT_DISTRIBUTION_ID"] %>
 
 exclude_from_upload:
-  - scripts
+  - release.sh
   - Gemfile
   - README
