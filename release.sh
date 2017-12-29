@@ -28,11 +28,15 @@ echo
 
 echo "Moving all html files into directories"
 export SITE_DIR="_site"
-for filename in $(find $SITE_DIR -regex "$SITE_DIR.*[0-9].*\.html"); do
-  dir=${filename%.*}
+for filename in $(find $SITE_DIR -regex "$SITE_DIR.*\.html"); do
+  base_filename=$(basename $filename)
+  if [ $base_filename != "index.html" ];
+  then
+    dir=${filename%.*}
 
-  mkdir -pv $dir
-  mv -v $filename $dir/index.html
+    mkdir -pv $dir
+    mv -v $filename $dir/index.html
+  fi
 done
 echo
 
