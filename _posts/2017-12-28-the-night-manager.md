@@ -5,7 +5,7 @@ author: "John Le Carre"
 affiliate: "https://www.amazon.com/gp/product/1524796956/ref=as_li_tl?ie=UTF8&tag=jacolovestoread-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1524796956&linkId=abf107f1a14aa4168662347c1bd08b1f"
 ---
 
-Having read ’Tinker, Tailor, Soldier, Spy’ - I book I found a bit slow and overly complex - I wasn’t particularly keen to try ‘The Night Manager’, except that I had seen the TV Series (which is excellent) and I thought the book would follow suit. Overall I was not disappointed - the storyline is compelling and moves at a reasonable pace, although in my opinion it has some of the same flaws as ‘Tinker, Tailor, Soldier, Spy’.
+Having read ’Tinker, Tailor, Soldier, Spy’ - a book I found a bit slow and overly complex - I wasn’t particularly keen to try ‘The Night Manager’, except that I had seen the TV Series (which is excellent) and I thought the book would follow suit. Overall I was not disappointed - the storyline is compelling and moves at a reasonable pace, although in my opinion it has some of the same flaws as ‘Tinker, Tailor, Soldier, Spy’.
 
 The story revolves around Jonathan Pine, the night manager at a hotel in Cairo. He becomes involved with a beautiful woman who is killed by the business associate of Richard Roper, a powerful arms dealer. Jonathan is haunted by his role in her murder and when he meets Roper months later in Switzerland he vows revenge and ultimately becomes a spy for British Intelligence.
 
