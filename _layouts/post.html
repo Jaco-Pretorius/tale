@@ -18,7 +18,25 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
 
+  {% if page.affiliate %}
+  <p class='affiliate'>
+    <a class='affiliate' href="{{ page.affiliate }}" target="_blank">
+      <img src="/assets/amazon-icon-96x96.png" alt="Buy on Amazon">
+      Buy on Amazon
+    </a>
+  </p>
+  {% endif %}
+
   {{ content }}
+
+  {% if page.affiliate %}
+  <p class='affiliate'>
+    <a class='affiliate' href="{{ page.affiliate }}" target="_blank">
+      <img src="/assets/amazon-icon-96x96.png" alt="Buy on Amazon">
+      Buy on Amazon
+    </a>
+  </p>
+  {% endif %}
 
 </div>
 
